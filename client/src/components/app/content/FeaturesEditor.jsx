@@ -125,6 +125,11 @@ export default function FeaturesEditor({ data }) {
     setOpenCard(index + 1);
   }
 
+  const cards = (data.cards || []).map((card, index) => ({
+    ...card,
+    id: card.id || `feature-${index}`,
+  }));
+
   return (
     <div className="flex h-full flex-col">
 
@@ -182,7 +187,7 @@ export default function FeaturesEditor({ data }) {
         </div>
 
         <SortableAccordion
-      items={data.cards || []}
+      items={cards}
       onReorder={(cards) =>
         updateSection("features", {
           ...data,
