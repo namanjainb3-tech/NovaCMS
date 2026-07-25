@@ -1,8 +1,5 @@
 const Content = require("../models/Content");
 
-// =====================================
-// GET ALL CONTENT
-// =====================================
 exports.getAllContent = async (req, res) => {
   try {
     const content = await Content.find().sort({ section: 1 });
@@ -19,9 +16,6 @@ exports.getAllContent = async (req, res) => {
   }
 };
 
-// =====================================
-// CREATE / UPDATE SECTION
-// =====================================
 exports.updateContent = async (req, res) => {
   try {
     const { section } = req.params;
@@ -51,9 +45,6 @@ exports.updateContent = async (req, res) => {
   }
 };
 
-// =====================================
-// PUBLISH WEBSITE
-// =====================================
 exports.publishContent = async (req, res) => {
   try {
     res.status(200).json({
