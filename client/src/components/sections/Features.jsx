@@ -24,7 +24,6 @@ export default function Features({data}) {
       id="features"
       className="relative overflow-hidden py-32"
     >
-      {/* Background Glow */}
 
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-0 top-20 h-72 w-72 rounded-full bg-indigo-500/10 blur-[140px]" />
@@ -61,12 +60,9 @@ export default function Features({data}) {
                     } opacity-80`}
                   />
 
-                  {/* Glow */}
-
                   <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-white/5 blur-3xl transition-all duration-500 group-hover:scale-125" />
 
                   <div className="relative flex h-full flex-col justify-between p-8">
-                    {/* Top */}
 
                     <div>
                       <motion.div
@@ -90,8 +86,6 @@ export default function Features({data}) {
                         {feature.description}
                       </p>
 
-                      {/* Mock UI */}
-
                       <div className="mt-8 radius-theme border border-white/10 bg-black/30 p-5">
                         <div className="flex items-center gap-2">
                           <div className="h-3 w-3 rounded-full bg-red-400" />
@@ -107,8 +101,6 @@ export default function Features({data}) {
                         </div>
                       </div>
                     </div>
-
-                    {/* Bottom */}
 
                     <div className="mt-10">
                       <div className="space-y-3">
