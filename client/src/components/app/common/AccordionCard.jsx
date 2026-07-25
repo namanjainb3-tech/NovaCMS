@@ -14,7 +14,6 @@ export default function AccordionCard({
 
       <div className="flex items-center justify-between px-6 py-5 transition hover:bg-zinc-800/60">
 
-        {/* Toggle button */}
         <button
           onClick={onToggle}
           className="flex flex-1 items-center justify-between text-left"
@@ -44,7 +43,6 @@ export default function AccordionCard({
           )}
         </button>
 
-        {/* Actions OUTSIDE the toggle button */}
         {actions && (
           <div
             className="ml-4 flex items-center gap-2"
