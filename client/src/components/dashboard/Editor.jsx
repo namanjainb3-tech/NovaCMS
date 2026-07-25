@@ -12,7 +12,6 @@ import {
   export default function Editor() {
     return (
       <section className="flex flex-1 flex-col">
-        {/* Top Toolbar */}
         <header className="flex flex-col gap-6 border-b border-white/10 p-5 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>
           <div className="flex w-full flex-col gap-3 sm:flex-row lg:w-auto">
@@ -47,9 +46,7 @@ import {
           </div>
         </header>
   
-        {/* Editor */}
         <div className="flex-1 space-y-8 p-5 lg:p-8">
-          {/* Hero Heading */}
           <div className="space-y-3">
             <label className="text-sm font-medium text-slate-400">
               Hero Heading
@@ -62,7 +59,6 @@ import {
             </div>
           </div>
   
-          {/* Description */}
           <div className="space-y-3">
             <label className="text-sm font-medium text-slate-400">
               Description
@@ -77,7 +73,6 @@ import {
             </div>
           </div>
   
-          {/* Tags */}
           <div>
             <label className="text-sm font-medium text-slate-400">
               Categories
@@ -100,7 +95,6 @@ import {
             </div>
           </div>
   
-          {/* AI Suggestions */}
           <div className="radius-theme-lg border border-violet-500/20 bg-violet-500/5 p-6">
             <div className="flex items-start gap-4">
               <div className="radius-theme bg-violet-500/15 p-3">
