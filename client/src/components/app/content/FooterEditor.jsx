@@ -70,8 +70,6 @@ export default function FooterEditor({ data }) {
 
       <div className="space-y-6">
 
-        {/* Brand */}
-
         <EditorCard
           title="Brand"
           subtitle="Logo and branding information."
@@ -115,8 +113,6 @@ export default function FooterEditor({ data }) {
 
         </EditorCard>
 
-        {/* Footer Columns */}
-
         {(data.columns || []).map((column, index) => (
 
           <AccordionCard
@@ -159,8 +155,6 @@ export default function FooterEditor({ data }) {
           </AccordionCard>
 
         ))}
-
-        {/* Bottom */}
 
         <EditorCard
           title="Bottom Bar"
