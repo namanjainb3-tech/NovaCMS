@@ -88,8 +88,6 @@ export default function Sidebar({
   return (
     <aside className="flex h-full flex-col bg-[#09090B]">
 
-      {/* Logo */}
-
       <div className="border-b border-zinc-800 px-5 py-5">
 
         <div className="flex items-center gap-3">
@@ -113,8 +111,6 @@ export default function Sidebar({
         </div>
 
       </div>
-
-      {/* Navigation */}
 
       <div className="flex-1 overflow-y-auto px-4 py-4">
 
@@ -172,8 +168,6 @@ export default function Sidebar({
         )}
 
         </div>
-
-      {/* Bottom */}
 
       <div className="border-t border-zinc-800 p-4">
         <motion.button
