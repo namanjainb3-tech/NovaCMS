@@ -1,12 +1,10 @@
 :root {
-    /* Core Theme */
     --accent: #7C3AED;
     --accent-hover: #8B5CF6;
     --background: #020617;
 
     --font-family: "Inter", sans-serif;
   
-    /* Accent Variants */
     --accent-soft: rgba(124, 58, 237, 0.10);
     --accent-soft-2: rgba(124, 58, 237, 0.20);
     --accent-border: rgba(124, 58, 237, 0.25);
@@ -16,10 +14,6 @@
 
     --radius:24px;
   }
-  
-  /* ===========================
-     Backgrounds
-  =========================== */
   
   .bg-accent {
     background-color: var(--accent);
@@ -37,33 +31,17 @@
     background-color: var(--accent-soft-2);
   }
   
-  /* ===========================
-     Text
-  =========================== */
-  
   .text-accent {
     color: var(--accent);
   }
-  
-  /* ===========================
-     Borders
-  =========================== */
   
   .border-accent {
     border-color: var(--accent-border);
   }
   
-  /* ===========================
-     Ring
-  =========================== */
-  
   .ring-accent {
     --tw-ring-color: var(--accent);
   }
-  
-  /* ===========================
-     Glow
-  =========================== */
   
   .glow-accent {
     box-shadow: 0 0 80px var(--accent-glow);
