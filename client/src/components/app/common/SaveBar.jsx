@@ -8,12 +8,14 @@ export default function SaveBar({
   return (
     <div className="sticky bottom-4 mt-6 flex flex-col gap-4 radius-theme border border-zinc-800 bg-zinc-900/95 p-4 backdrop-blur-xl sm:flex-row sm:items-center sm:justify-between sm:gap-0 sm:bottom-6">
       <div className="min-w-0">
-        <p className="text-base font-semibold text-white sm:text-lg">          {dirty
+        <p className="text-base font-semibold text-white sm:text-lg">
+          {dirty
             ? "Unsaved Changes"
             : "Everything Saved"}
         </p>
 
-        <p className="mt-1 text-sm leading-relaxed text-zinc-400">          {dirty
+        <p className="mt-1 text-sm leading-relaxed text-zinc-400">          
+          {dirty
             ? "Remember to save your latest edits."
             : "Your content is synced."}
         </p>
