@@ -53,7 +53,6 @@ export default function Navbar() {
               : "border-transparent bg-transparent"
           }`}
         >
-          {/* Logo */}
           <Link
             to="/"
             className="flex items-center gap-3"
@@ -76,7 +75,6 @@ export default function Navbar() {
             )}
           </Link>
 
-          {/* Desktop Navigation */}
           <div className="hidden items-center gap-8 md:flex">
             {navLinks.map((item) => (
               <a
@@ -89,7 +87,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Desktop Actions */}
           <div className="hidden items-center gap-3 md:flex">
             <Link
               to="/login"
@@ -103,7 +100,6 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Button */}
           <button
             onClick={() => setMobileOpen((prev) => !prev)}
             className="radius-theme-sm border border-white/10 p-2 text-white md:hidden"
@@ -112,7 +108,6 @@ export default function Navbar() {
           </button>
         </motion.nav>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {mobileOpen && (
             <motion.div
