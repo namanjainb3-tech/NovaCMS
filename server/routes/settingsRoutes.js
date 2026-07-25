@@ -10,7 +10,6 @@ const auth = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
-// All settings belong to the logged-in user
 router.get("/", auth, getSettings);
 
 router.put("/", auth, updateSettings);
