@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/screenshots/hero.png" width="100%" alt="NovaCMS Banner"/>
+<img src="docs/screenshots/hero.jpeg" width="100%" alt="NovaCMS Banner"/>
 
 # NovaCMS
 
@@ -246,21 +246,9 @@ for a fast and scalable experience.
 
 ---
 
-# 📸 Product Preview
-
-<div align="center">
-
-## 🏠 Landing Page
-
-<img src="docs/screenshots/landing.png" width="95%" />
-
-*A clean and modern landing page powered entirely through NovaCMS.*
-
----
-
 ## 🔐 Authentication
 
-<img src="docs/screenshots/login.png" width="95%" />
+<img src="docs/screenshots/login.jpeg" width="95%" />
 
 *Secure administrator login using Google OAuth and JWT Authentication.*
 
@@ -268,51 +256,25 @@ for a fast and scalable experience.
 
 ## 📊 Dashboard
 
-<img src="docs/screenshots/dashboard.png" width="95%" />
+<img src="docs/screenshots/dashboard.jpeg" width="95%" />
 
 *Manage every section of the website from one beautiful dashboard.*
 
 ---
 
-## ✏️ Content Editor
-
-<img src="docs/screenshots/editor.png" width="95%" />
-
-*Update website content without touching the source code.*
-
----
-
 ## 🖼 Image Upload
 
-<img src="docs/screenshots/upload.png" width="95%" />
+<img src="docs/screenshots/upload.jpeg" width="95%" />
 
 *Upload and manage website assets directly from the CMS.*
 
 ---
 
-## 🚀 Publish Website
-
-<img src="docs/screenshots/publish.png" width="95%" />
-
-*Publish your latest website changes with a single click.*
-
----
-
 ## ⚙️ Settings
 
-<img src="docs/screenshots/settings.png" width="95%" />
+<img src="docs/screenshots/settings.jpeg" width="95%" />
 
 *Configure application settings and customize your CMS experience.*
-
----
-
-## 📱 Responsive Design
-
-<img src="docs/screenshots/mobile.png" width="45%" />
-
-*NovaCMS provides a seamless editing experience across all screen sizes.*
-
-</div>
 
 ---
 
