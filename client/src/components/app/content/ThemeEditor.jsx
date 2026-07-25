@@ -47,7 +47,7 @@ const presets = [
 const backgrounds = [
     {
       name: "Original",
-      value: "#020617", // Tailwind Slate-950
+      value: "#020617", 
     },
     {
       name: "Midnight",
