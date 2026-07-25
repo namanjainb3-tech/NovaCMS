@@ -44,7 +44,6 @@ export default function Footer({ data }) {
     >
       <Container>
         <div className="grid gap-14 lg:grid-cols-[1.2fr_2fr]">
-          {/* Left */}
 
           <div>
           <h2 className="text-3xl font-black tracking-tight text-white">
@@ -62,8 +61,6 @@ export default function Footer({ data }) {
               {data?.tagline}
             </p>
           </div>
-
-          {/* Right */}
 
           <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
             {(data?.columns || []).map((column) => (
@@ -99,8 +96,6 @@ export default function Footer({ data }) {
             ))}
           </div>
         </div>
-
-        {/* Bottom */}
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 md:flex-row">
           <p className="text-sm text-gray-500">
