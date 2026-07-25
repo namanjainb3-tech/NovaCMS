@@ -1591,7 +1591,7 @@ It helps the project gain visibility and motivates future development.
 
 ### If you like this project, don't forget to leave a star!
 
-<img src="docs/screenshots/footer-banner.png" width="100%" alt="NovaCMS Footer Banner"/>
+<img src="docs/screenshots/footer.jpeg" width="100%" alt="NovaCMS Footer Banner"/>
 
 **Made with ❤️ using React, Express, MongoDB, and Tailwind CSS**
 
