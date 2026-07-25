@@ -28,7 +28,6 @@ export default function Dashboard() {
         ) : (
 
           <div className="mx-auto grid h-[calc(100vh-7rem)] w-full max-w-[1400px] gap-8 xl:grid-cols-[440px_minmax(0,1fr)]">
-          {/* Editor */}
           <section className="min-w-0">
             <EditorPanel
               loading={loading}
@@ -37,8 +36,7 @@ export default function Dashboard() {
               updateSection={updateSection}
             />
           </section>
-
-          {/* Live Preview */}
+            
           <section className="min-w-0">
             <PreviewPanel loading={loading} />
           </section>
