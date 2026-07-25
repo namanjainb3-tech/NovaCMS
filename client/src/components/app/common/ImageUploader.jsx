@@ -37,8 +37,6 @@ export default function ImageUploader({
   return (
     <div className="space-y-4">
   
-      {/* Hidden File Input */}
-  
       <input
         ref={fileInputRef}
         type="file"
@@ -48,8 +46,6 @@ export default function ImageUploader({
           handleUpload(e.target.files?.[0])
         }
       />
-  
-      {/* Preview */}
   
       <div className="overflow-hidden radius-theme border border-zinc-800 bg-zinc-900">
   
@@ -79,8 +75,6 @@ export default function ImageUploader({
         )}
   
       </div>
-  
-      {/* Buttons */}
   
       <div className="flex gap-3">
   
