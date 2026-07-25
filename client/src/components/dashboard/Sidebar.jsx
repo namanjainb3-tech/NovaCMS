@@ -54,7 +54,6 @@ import {
           lg:flex-col
         "
       >
-        {/* Logo */}
         <div className="border-b border-white/10 p-6">
           <div className="flex w-full flex-col gap-3 sm:flex-row lg:w-auto">
             <div
@@ -88,7 +87,6 @@ import {
           </div>
         </div>
   
-        {/* Navigation */}
         <nav className="flex-1 space-y-2 p-4">
           {items.map((item) => {
             const Icon = item.icon;
@@ -122,7 +120,6 @@ import {
           })}
         </nav>
   
-        {/* Workspace */}
         <div className="border-t border-white/10 p-5">
           <div
             className="
