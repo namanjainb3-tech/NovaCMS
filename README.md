@@ -2,7 +2,7 @@
 
 <img src="docs/screenshots/hero.png" width="100%" alt="NovaCMS Banner"/>
 
-# 🚀 NovaCMS
+# NovaCMS
 
 ### **Modern Full-Stack Content Management System**
 
