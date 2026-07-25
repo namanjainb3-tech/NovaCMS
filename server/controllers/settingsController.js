@@ -1,8 +1,5 @@
 const Settings = require("../models/Settings");
 
-// =====================================
-// GET SETTINGS
-// =====================================
 const getSettings = async (req, res) => {
   try {
     let settings = await Settings.findOne({
@@ -24,9 +21,6 @@ const getSettings = async (req, res) => {
   }
 };
 
-// =====================================
-// UPDATE SETTINGS
-// =====================================
 const updateSettings = async (req, res) => {
   try {
     let settings = await Settings.findOne({
@@ -63,9 +57,6 @@ const updateSettings = async (req, res) => {
   }
 };
 
-// =====================================
-// RESET SETTINGS
-// =====================================
 const resetSettings = async (req, res) => {
   try {
     let settings = await Settings.findOne({
