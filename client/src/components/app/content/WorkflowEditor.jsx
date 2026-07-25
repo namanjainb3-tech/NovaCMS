@@ -101,6 +101,11 @@ export default function WorkflowEditor({ data }) {
     await saveSection("workflow");
   }
 
+  const steps = (data.steps || []).map((step, index) => ({
+    ...step,
+    id: step.id || `step-${index}`,
+  }));
+
   return (
     <div className="flex h-full flex-col">
 
@@ -164,7 +169,7 @@ export default function WorkflowEditor({ data }) {
         </div>
 
         <SortableAccordion
-        items={data.steps || []}
+        items={steps}
         onReorder={(steps) =>
           updateSection("workflow", {
             ...data,
