@@ -26,13 +26,6 @@ export default function Home() {
     async function fetchContent() {
       try {
         const response = await api.get("/content");
-
-        // New backend response:
-        // {
-        //   success: true,
-        //   data: [...]
-        // }
-
         setContent(response.data.data);
       } catch (err) {
         console.error(err);
