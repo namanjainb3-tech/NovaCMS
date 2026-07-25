@@ -27,7 +27,7 @@ export default function useKeyboardShortcuts({
         return;
       }
 
-      // Ctrl + Y (Windows)
+      // Ctrl + Y
       if (key === "y") {
         e.preventDefault();
         redo();
