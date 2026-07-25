@@ -1,0 +1,106 @@
+:root {
+    /* Core Theme */
+    --accent: #7C3AED;
+    --accent-hover: #8B5CF6;
+    --background: #020617;
+
+    --font-family: "Inter", sans-serif;
+  
+    /* Accent Variants */
+    --accent-soft: rgba(124, 58, 237, 0.10);
+    --accent-soft-2: rgba(124, 58, 237, 0.20);
+    --accent-border: rgba(124, 58, 237, 0.25);
+    --accent-glow: rgba(124, 58, 237, 0.35);
+
+    --text-on-accent: #ffffff;
+
+    --radius:24px;
+  }
+  
+  /* ===========================
+     Backgrounds
+  =========================== */
+  
+  .bg-accent {
+    background-color: var(--accent);
+  }
+  
+  .bg-accent:hover {
+    background-color: var(--accent-hover);
+  }
+  
+  .bg-accent-soft {
+    background-color: var(--accent-soft);
+  }
+  
+  .bg-accent-soft-2 {
+    background-color: var(--accent-soft-2);
+  }
+  
+  /* ===========================
+     Text
+  =========================== */
+  
+  .text-accent {
+    color: var(--accent);
+  }
+  
+  /* ===========================
+     Borders
+  =========================== */
+  
+  .border-accent {
+    border-color: var(--accent-border);
+  }
+  
+  /* ===========================
+     Ring
+  =========================== */
+  
+  .ring-accent {
+    --tw-ring-color: var(--accent);
+  }
+  
+  /* ===========================
+     Glow
+  =========================== */
+  
+  .glow-accent {
+    box-shadow: 0 0 80px var(--accent-glow);
+  }
+
+  .hover-border-accent:hover {
+    border-color: var(--accent) !important;
+  }
+  
+  .hover-text-accent:hover {
+    color: var(--accent);
+  }
+  
+  .bg-accent-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--accent-soft-2),
+      var(--accent-soft)
+    );
+  }
+
+  .radius-theme{
+    border-radius:var(--radius);
+}
+
+.radius-theme-sm{
+    border-radius:calc(var(--radius) - 8px);
+}
+
+.radius-theme-lg{
+    border-radius:calc(var(--radius) + 8px);
+}
+
+.radius-pill{
+    border-radius:999px;
+}
+
+.text-on-accent {
+  color: var(--text-on-accent);
+}
