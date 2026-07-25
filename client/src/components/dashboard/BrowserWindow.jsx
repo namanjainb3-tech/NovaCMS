@@ -23,7 +23,6 @@ export default function BrowserWindow({
         backdrop-blur-3xl
       "
     >
-      {/* Browser Header */}
       <div
         className="
           flex
@@ -36,14 +35,12 @@ export default function BrowserWindow({
           py-4
         "
       >
-        {/* macOS Controls */}
         <div className="flex items-center gap-2">
           <span className="h-3 w-3 rounded-full bg-red-400" />
           <span className="h-3 w-3 rounded-full bg-yellow-400" />
           <span className="h-3 w-3 rounded-full bg-emerald-400" />
         </div>
 
-        {/* Address Bar */}
         <div
           className="
             hidden
@@ -72,7 +69,6 @@ export default function BrowserWindow({
           </div>
         </div>
 
-        {/* Status */}
         <div
           className="
             rounded-full
@@ -90,7 +86,6 @@ export default function BrowserWindow({
         </div>
       </div>
 
-      {/* Browser Content */}
       <div className="bg-[#020817]">
         {children}
       </div>
