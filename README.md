@@ -1611,9 +1611,6 @@ Passionate about building modern, scalable, and production-ready web application
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/namanjainb3-tech)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/naman-jain123)
-
-
 </div>
 
 ---
