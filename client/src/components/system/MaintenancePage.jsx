@@ -27,7 +27,6 @@ export default function MaintenancePage() {
         background: "var(--background)",
       }}
     >
-      {/* Background Blobs */}
 
       <motion.div
         animate={{
@@ -77,8 +76,6 @@ export default function MaintenancePage() {
         >
           <Card className="border border-white/10 bg-white/5 p-12 backdrop-blur-2xl">
 
-            {/* Logo */}
-
             <div className="flex justify-center">
 
               {logo ? (
@@ -110,8 +107,6 @@ export default function MaintenancePage() {
               )}
             </div>
 
-            {/* Company */}
-
             <h1 className="mt-8 text-center text-5xl font-black text-white">
               {companyName}
             </h1>
@@ -133,8 +128,6 @@ export default function MaintenancePage() {
               We'll be back online very soon.
             </p>
 
-            {/* Status */}
-
             <div className="mt-10 flex justify-center">
 
               <div className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-6 py-3 text-sm font-medium text-emerald-400">
@@ -145,8 +138,6 @@ export default function MaintenancePage() {
               </div>
 
             </div>
-
-            {/* Buttons */}
 
             <div className="mt-12 flex flex-wrap justify-center gap-4">
 
@@ -163,8 +154,6 @@ export default function MaintenancePage() {
               </Button>
 
             </div>
-
-            {/* Footer */}
 
             <div className="mt-12 border-t border-white/10 pt-6 text-center">
 
