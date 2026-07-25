@@ -44,7 +44,6 @@ export default function Workflow({data}) {
       id="workflow"
       className="relative overflow-hidden py-32"
     >
-      {/* Background */}
 
       <div className="absolute inset-0 -z-10">
       <div
@@ -66,11 +65,7 @@ export default function Workflow({data}) {
         subtitle={data?.subtitle}
       />
 
-        {/* Timeline */}
-
         <div className="relative mt-20">
-
-          {/* Desktop Connector */}
 
           <div className="absolute left-[10%] right-[10%] top-10 hidden lg:block">
             <div className="h-px"
@@ -98,7 +93,6 @@ export default function Workflow({data}) {
                 }}
                 className="relative"
               >
-                {/* Mobile Connector */}
 
                 {index !== 0 && (
                   <div className="absolute -top-8 left-1/2 h-8 w-px -translate-x-1/2 bg-gradient-to-b from-violet-500/60 to-transparent lg:hidden" />
@@ -107,19 +101,14 @@ export default function Workflow({data}) {
                 <Card
                   className={`group relative h-full overflow-hidden border border-white/10 transition-all duration-500 ${accent.border}`}
                 >
-                  {/* Background */}
 
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${accent.bg}`}
                   />
 
-                  {/* Glow */}
-
                   <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-white/5 blur-3xl transition-all duration-500 group-hover:scale-125" />
 
                   <div className="relative p-8">
-
-                    {/* Step Number */}
 
                     <div className="flex items-center justify-between">
 
@@ -143,8 +132,6 @@ export default function Workflow({data}) {
                       </motion.div>
                     </div>
 
-                    {/* Content */}
-
                     <div className="mt-8">
 
                       <p className="text-sm uppercase tracking-widest text-gray-500">
@@ -159,8 +146,6 @@ export default function Workflow({data}) {
                         {step.description}
                       </p>
                     </div>
-
-                    {/* Fake UI */}
 
                     <div className="mt-8 radius-theme border border-white/10 bg-black/25 p-5">
 
@@ -188,8 +173,6 @@ export default function Workflow({data}) {
 
                       </div>
                     </div>
-
-                    {/* Footer */}
 
                     <div className="mt-8 flex items-center justify-between">
 
@@ -224,8 +207,6 @@ export default function Workflow({data}) {
           })}
           </div>
 
-          {/* Live Pipeline */}
-
           <motion.div
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -236,7 +217,6 @@ export default function Workflow({data}) {
           <Card
             className="group relative h-full overflow-hidden border border-white/10 transition-all duration-500 hover-border-accent"
           >
-              {/* Header */}
 
               <div className="border-b border-white/10 bg-white/[0.03] px-8 py-5">
 
@@ -262,11 +242,7 @@ export default function Workflow({data}) {
 
               </div>
 
-    {/* Body */}
-
     <div className="grid gap-12 p-8 lg:grid-cols-[1.2fr_0.8fr]">
-
-      {/* Left */}
 
       <div>
 
@@ -337,8 +313,6 @@ export default function Workflow({data}) {
         ))}
 
       </div>
-
-      {/* Right */}
 
       <div>
 
