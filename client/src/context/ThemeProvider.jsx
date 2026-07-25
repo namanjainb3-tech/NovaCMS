@@ -68,7 +68,6 @@ export default function ThemeProvider({ children }) {
       textOnAccentMap[accent] || "#ffffff"
     );
 
-    // Derived accent variables
     root.style.setProperty("--accent-soft", `${accent}1A`);
     root.style.setProperty("--accent-soft-2", `${accent}33`);
     root.style.setProperty("--accent-border", `${accent}55`);
