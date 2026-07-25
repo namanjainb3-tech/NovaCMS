@@ -125,7 +125,6 @@ export default function SettingsEditor() {
   return (
     <div className="radius-theme-lg overflow-hidden border border-zinc-800 bg-zinc-900">
 
-      {/* Header */}
       <div className="border-b border-zinc-800 px-6 py-5">
         <h2 className="text-2xl font-bold text-white">
           Settings
@@ -136,7 +135,6 @@ export default function SettingsEditor() {
         </p>
       </div>
 
-      {/* Mobile Navigation */}
       <div className="border-b border-zinc-800 p-4 lg:hidden">
 
         <div
@@ -218,10 +216,8 @@ export default function SettingsEditor() {
 
       </div>
 
-      {/* Desktop Layout */}
       <div className="lg:grid lg:min-h-[700px] lg:grid-cols-[240px_minmax(0,1fr)]">
 
-        {/* Sidebar */}
         <aside className="hidden lg:block">
           <SettingsSidebar
             activeTab={activeTab}
@@ -229,7 +225,6 @@ export default function SettingsEditor() {
           />
         </aside>
 
-        {/* Content */}
         <div className="min-w-0 overflow-y-auto p-5 sm:p-6 lg:p-8">
           {renderTab()}
         </div>
