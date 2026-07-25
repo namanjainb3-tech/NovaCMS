@@ -7,7 +7,6 @@ const api = axios.create({
   },
 });
 
-// Automatically attach JWT token (if available)
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem("token");
@@ -20,10 +19,6 @@ api.interceptors.request.use(
   },
   (error) => Promise.reject(error)
 );
-
-// =======================
-// API Helpers
-// =======================
 
 export const publishWebsite = async () => {
   const response = await api.post("/content/publish");
