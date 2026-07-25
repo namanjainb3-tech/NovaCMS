@@ -27,7 +27,6 @@ export default function Hero({ data }) {
   const [showDemo, setShowDemo] = useState(false);
   return (
     <section className="relative overflow-hidden pt-40 pb-24">
-      {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-0 h-[550px] w-[550px] -translate-x-1/2 rounded-full bg-indigo-600/20 blur-[170px]" />
 
@@ -38,7 +37,6 @@ export default function Hero({ data }) {
 
       <Container>
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
-          {/* Badge */}
           <motion.div
             custom={0}
             initial="hidden"
@@ -66,7 +64,6 @@ export default function Hero({ data }) {
           </div>
           </motion.div>
 
-          {/* Heading */}
           <motion.h1
             custom={0.15}
             initial="hidden"
@@ -78,7 +75,6 @@ export default function Hero({ data }) {
               "Manage Your Website Without Writing Code"}
           </motion.h1>
 
-          {/* Description */}
           <motion.p
             custom={0.3}
             initial="hidden"
@@ -90,7 +86,6 @@ export default function Hero({ data }) {
               "Create, edit and publish content instantly using a premium visual CMS built for startups, agencies and modern product teams."}
           </motion.p>
 
-          {/* CTA */}
           <motion.div
             custom={0.45}
             initial="hidden"
@@ -116,8 +111,6 @@ export default function Hero({ data }) {
               {data?.secondaryButton || "Live Demo"}
             </Button>
           </motion.div>
-
-          {/* Hero Image */}
 
         {data?.image && (
           <motion.div
