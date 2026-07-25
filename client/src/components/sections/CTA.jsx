@@ -8,11 +8,7 @@ export default function CTA({data}) {
   return (
     <section className="relative overflow-hidden py-32">
 
-      {/* Background */}
-
       <div className="absolute inset-0 -z-10">
-
-        {/* Grid */}
 
         <div
           className="absolute inset-0 opacity-[0.04]"
@@ -22,8 +18,6 @@ export default function CTA({data}) {
             backgroundSize: "42px 42px",
           }}
         />
-
-        {/* Glow */}
 
         <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500/10 blur-[160px]" />
 
@@ -42,8 +36,6 @@ export default function CTA({data}) {
           transition={{ duration: 0.7 }}
           className="relative overflow-hidden rounded-[36px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-xl md:p-20"
         >
-
-          {/* Decorative */}
 
           <div className="absolute -left-24 top-0 h-72 w-72 rounded-full bg-cyan-500/10 blur-[130px]" />
 
@@ -95,8 +87,6 @@ export default function CTA({data}) {
 
             </div>
 
-            {/* Stats */}
-
             <div className="mt-16 grid gap-6 sm:grid-cols-3">
 
             {(data?.stats || []).map((item, index) => (
@@ -123,8 +113,6 @@ export default function CTA({data}) {
             </div>
 
                 </div>
-
-                {/* Floating Badges */}
 
                 <motion.div
                 animate={{
