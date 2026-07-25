@@ -10,8 +10,6 @@ async function seed() {
     await Content.deleteMany();
 
     const sections = [
-      // ---------------- HERO ----------------
-
       {
         section: "hero",
         data: {
@@ -24,8 +22,6 @@ async function seed() {
           image: "",
         },
       },
-
-      // ---------------- FEATURES ----------------
 
       {
         section: "features",
@@ -102,8 +98,6 @@ async function seed() {
         },
       },
 
-      // ---------------- WORKFLOW ----------------
-
       {
         section: "workflow",
         data: {
@@ -151,8 +145,6 @@ async function seed() {
         },
       },
 
-      // ---------------- CTA ----------------
-
       {
         section: "cta",
         data: {
@@ -185,8 +177,6 @@ async function seed() {
           ],
         },
       },
-
-      // ---------------- FOOTER ----------------
 
       {
         section: "footer",
@@ -246,13 +236,11 @@ async function seed() {
         },
       },
 
-      // ---------------- THEME ----------------
-
       {
         section: "theme",
         data: {
-          accent: "#7C3AED",       // Violet 600
-          background: "#09090B",   // Zinc 950
+          accent: "#7C3AED",       
+          background: "#09090B",  
           radius: "16",
           font: "Inter",
         },
