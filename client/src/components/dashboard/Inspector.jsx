@@ -21,7 +21,6 @@ import {
           xl:flex-col
         "
       >
-        {/* Header */}
         <div className="border-b border-white/10 px-6 py-5">
           <h3 className="text-lg font-semibold text-white">
             Page Settings
@@ -34,7 +33,6 @@ import {
   
         <div className="flex-1 space-y-6 overflow-y-auto p-6">
   
-          {/* SEO */}
           <section className="radius-theme-lg border border-white/10 bg-white/[0.03] p-5">
             <div className="flex items-center gap-2">
               <Search size={18} className="text-indigo-300" />
@@ -58,7 +56,6 @@ import {
             </div>
           </section>
   
-          {/* URL */}
           <section className="radius-theme-lg border border-white/10 bg-white/[0.03] p-5">
             <div className="flex items-center gap-2">
               <Globe size={18} className="text-indigo-300" />
@@ -72,7 +69,6 @@ import {
             </div>
           </section>
   
-          {/* Slug */}
           <section className="radius-theme-lg border border-white/10 bg-white/[0.03] p-5">
             <div className="flex items-center gap-2">
               <Link2 size={18} className="text-indigo-300" />
@@ -86,7 +82,6 @@ import {
             </div>
           </section>
   
-          {/* Team */}
           <section className="radius-theme-lg border border-white/10 bg-white/[0.03] p-5">
             <div className="flex items-center gap-2">
               <Users size={18} className="text-indigo-300" />
@@ -130,7 +125,6 @@ import {
             </div>
           </section>
   
-          {/* Validation */}
           <section className="radius-theme-lg border border-white/10 bg-white/[0.03] p-5">
             <div className="flex items-center gap-2">
               <AlertCircle size={18} className="text-amber-300" />
