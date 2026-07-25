@@ -10,7 +10,6 @@ const {
 
 const auth = require("../middleware/authMiddleware");
 
-// All CMS routes require authentication
 router.get("/", auth, getAllContent);
 
 router.put("/:section", auth, updateContent);
