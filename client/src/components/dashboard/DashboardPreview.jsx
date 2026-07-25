@@ -10,7 +10,6 @@ import Inspector from "./Inspector";
 export default function DashboardPreview() {
   return (
     <section className="relative pb-32">
-      {/* Background Glow */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
       <div
         className="absolute left-1/2 top-40 h-[500px] w-[500px] -translate-x-1/2 rounded-full blur-[170px]"
@@ -30,7 +29,6 @@ export default function DashboardPreview() {
       </div>
 
       <Container>
-        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -60,7 +58,6 @@ export default function DashboardPreview() {
           </p>
         </motion.div>
 
-        {/* Dashboard */}
         <motion.div
           initial={{
             opacity: 0,
