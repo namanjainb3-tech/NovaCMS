@@ -79,8 +79,6 @@ export default function PreviewPanel({ loading }) {
 
       <div className="overflow-hidden radius-theme-lg border border-zinc-800 bg-zinc-900 shadow-[0_30px_80px_rgba(0,0,0,.35)]">
 
-        {/* Browser Header */}
-
         {isSmallScreen ? (
 
           <div className="flex items-center justify-between border-b border-zinc-800 px-3 py-2">
@@ -199,10 +197,6 @@ export default function PreviewPanel({ loading }) {
           </div>
 
         )}
-
-        
-
-        {/* Preview Viewport */}
 
         <div
           className="h-[233vh] overflow-auto"
