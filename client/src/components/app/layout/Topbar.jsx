@@ -19,10 +19,7 @@ export default function Topbar({
 }) {
   return (
     <>
-      {/* Mobile */}
       <div className="flex h-16 items-center justify-between px-4 lg:hidden">
-
-        {/* Left */}
         <div className="flex items-center gap-3">
 
           <button
@@ -44,7 +41,6 @@ export default function Topbar({
 
         </div>
 
-        {/* Right */}
         <div className="flex items-center gap-2">
 
           <NotificationBell />
@@ -64,9 +60,7 @@ export default function Topbar({
 
       </div>
   
-      {/* Desktop */}
       <div className="hidden h-full items-center justify-between px-4 md:px-8 lg:flex">  
-        {/* Left */}
   
         <div>
   
@@ -79,8 +73,6 @@ export default function Topbar({
           </p>
   
         </div>
-  
-        {/* Center */}
   
         <div className="relative hidden w-full max-w-lg xl:block">
   
@@ -98,8 +90,6 @@ export default function Topbar({
         />
   
         </div>
-  
-        {/* Right */}
   
         <div className="flex items-center gap-4">
   
