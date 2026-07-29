@@ -249,8 +249,6 @@ async function seed() {
 
     await Content.insertMany(sections);
 
-    console.log("✅ Content Seeded Successfully");
-
     process.exit();
 
   } catch (err) {
