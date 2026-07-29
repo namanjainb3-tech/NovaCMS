@@ -32,12 +32,12 @@ app.use("/api/settings", settingsRoutes);
 app.get("/", (req, res) => {
     res.json({
         success: true,
-        message: "CMS Backend Running 🚀",
+        message: "CMS Backend Running",
     });
 });
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
