@@ -10,11 +10,10 @@ const {
 
 const auth = require("../middleware/authMiddleware");
 
-// Public
-router.get("/", getAllContent);
+router.get("/", auth, getAllContent);
 
-// Protected
 router.put("/:section", auth, updateContent);
+
 router.post("/publish", auth, publishContent);
 
 module.exports = router;
